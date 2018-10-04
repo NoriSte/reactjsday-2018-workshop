@@ -9,6 +9,7 @@ import { FetchData } from "./components/FetchData";
 import { KeyLogger } from "./components/KeyLogger";
 import { Option } from "./components/Option";
 import { Select } from "./components/Select";
+import { ControlledSelect } from "./components/ControlledSelect";
 
 function App() {
   return (
@@ -44,6 +45,14 @@ function App() {
             <Option value="red"> Red </Option>
             <Option value="white"> White </Option>
           </Select>
+          <br />
+          <br />
+          Controlled components:
+          <ControlledSelect>
+            <Option value="blue"> Blue </Option>
+            <Option value="red"> Red </Option>
+            <Option value="white"> White </Option>
+          </ControlledSelect>
         </div>
       )}
     </KeyLogger>
