@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./styles.css";
-import { ShowCoordsWithMouseAndTimePassed } from "./ShowCoords";
+import { HOCShowCoords } from "./ShowCoords";
 
 function App() {
   return (
     <div className="App">
-      <ShowCoordsWithMouseAndTimePassed />
+      <HOCShowCoords />
     </div>
   );
 }

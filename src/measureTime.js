@@ -20,7 +20,7 @@ const measureTime = Component => {
     }
 
     render() {
-      return <Component {...this.state} />;
+      return <Component {...this.state} {...this.props} />;
     }
   };
 };
