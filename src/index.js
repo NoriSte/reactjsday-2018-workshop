@@ -7,7 +7,7 @@ import { MouseLogger } from "./components/MouseLogger";
 import { MeasureTime } from "./components/MeasureTime";
 import { FetchData } from "./components/FetchData";
 import { KeyLogger } from "./components/KeyLogger";
-//import {Option} from './components/Option'
+import { Option } from "./components/Option";
 
 function App() {
   return (
@@ -38,6 +38,11 @@ function App() {
           <br />
           <br />
           Compound components:
+          <Select defaultValue="Red">
+            <Option value="blue"> Blue </Option>
+            <Option value="red"> Red </Option>
+            <Option value="white"> White </Option>
+          </Select>
         </div>
       )}
     </KeyLogger>
