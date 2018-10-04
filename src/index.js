@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 import { HOCShowCoords } from "./ShowCoords";
 import { MouseLogger } from "./components/MouseLogger";
+import { MeasureTime } from "./components/MeasureTime";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           </div>
         )}
       </MouseLogger>
+      <MeasureTime>
+        {({ secondsPassed }) => <div>secondsPassed:{secondsPassed}</div>}
+      </MeasureTime>
     </div>
   );
 }
