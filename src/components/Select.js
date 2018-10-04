@@ -28,10 +28,11 @@ class Select extends React.Component {
     const { children: options } = this.props;
     return React.Children.map(options, option => {
       const active = option.props.value === this.state.selectedValue;
-      const showIt = active || this.state.opened;
+      const { opened } = this.state;
+      const showIt = active || opened;
       if (showIt) {
         return React.cloneElement(option, {
-          active: option.props.value === this.state.selectedValue,
+          active: opened && option.props.value === this.state.selectedValue,
           onSelect: () => this.onSelect(option.props.value)
         });
       } else {
