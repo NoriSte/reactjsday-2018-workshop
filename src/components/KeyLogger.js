@@ -15,7 +15,6 @@ class KeyLogger extends React.Component {
   onKeyDown(e) {
     let lastKeystroke = e.key;
     let typedText = this.state.typedText;
-    console.log(lastKeystroke);
     if (
       lastKeystroke !== "Backspace" &&
       lastKeystroke !== "Enter" &&
