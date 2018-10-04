@@ -7,6 +7,7 @@ import { MouseLogger } from "./components/MouseLogger";
 import { MeasureTime } from "./components/MeasureTime";
 import { FetchData } from "./components/FetchData";
 import { KeyLogger } from "./components/KeyLogger";
+//import {Option} from './components/Option'
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           <div>
             lastKeystroke: {lastKeystroke}, typedText: {typedText}
           </div>
+          <br />
+          <br />
+          Compound components:
         </div>
       )}
     </KeyLogger>
