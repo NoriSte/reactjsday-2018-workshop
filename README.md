@@ -3,8 +3,19 @@ Thursday, 4th October 2018
 
 [Link to the training page](https://2018.reactjsday.it/training.html)
 
+Teacher: [@thekitze](https://twitter.com/thekitze)
+
+
 This repository contains all the commits made during the workshop, below you can find the exercises list.
 
+The repository contains also my code for the exercises, remember:
+- I know that it could be improved in a lot of ways but it isn't the goal of this repo
+- the exercises are made in an incremental way so I never removed the previous example. In the end, you will find all the exercises together
+- you can see the code running on [CodeSandbox](https://codesandbox.io/s/n4ww24z8lm)
+- the exercises themselves are useful to you only if you attended the workshop with the amazing [@thekitze](https://twitter.com/thekitze)
+
+
+# Exercises
 
 ## Higher Order Components
 [Slides](https://slides.reactacademy.io/presentation/higher-order-components/)
@@ -53,7 +64,7 @@ ex. 2: [Download](https://github.com/NoriSte/reactjsday-2018-workshop/releases/t
 [Slides](https://slides.reactacademy.io/presentation/compound-components/)
 
 ex. 1: [Download](https://github.com/NoriSte/reactjsday-2018-workshop/releases/tag/compound-components-ex1)
-- For this excercise you need to create two components: `Select` and `Option`
+- For this exercise you need to create two components: `Select` and `Option`
 Usage:
 - The `Option` component should be a functional component, and it should only receive props: `onSelect`, `children` and `active`
 - The `Select` component should be a compound component, and it should have two states: when it’s opened and closed.
